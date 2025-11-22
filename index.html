@@ -4,6 +4,675 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid bg-white sticky-top">
+      <nav class="navbar navbar-expand-lg bg-white bg-body-tertiary w-100">
+        <div class="container-fluid mx-3">
+          <div
+            class="rounded-2 mx-2 p-2 d-flex justify-content-center align-align-items-center bg-sec"
+          >
+            <i class="fa-solid fa-cube fs-5 text-white"></i>
+          </div>
+          <a class="navbar-brand" href="#">
+            <span class="text-2xl font-bold">Clarity</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu droppdown">
+                  <div class="row g-2 m-2 p-2">
+                    <div class="col-md-4">
+                      <h3 class="text-c2410c">Development</h3>
+                      <div class="my">
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i class="fa-solid fa-code text-c2410c"></i>
+                          </div>
+                          <div>
+                            <div class="">Web Development</div>
+                            <div class="text-secondary">
+                              Custom web applications & websites
+                            </div>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-mobile text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">Mobile Apps</div>
+                            <div class="text-secondary">
+                              iOS & Android native apps
+                            </div>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-palette text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">UI/UX Design</div>
+                            <div class="text-secondary">
+                              User-centered design solutions
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Column 2: Infrastructure & AI -->
+                    <div class="col-md-4">
+                      <h3 class="text-c2410c">Infrastructure & AI</h3>
+                      <div class="">
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-cloud text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">Cloud Solutions</div>
+                            <div class="text-secondary">
+                              Scalable cloud infrastructure
+                            </div>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-brain text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">AI & Machine Learning</div>
+                            <div class="text-secondary">
+                              Intelligent automation solutions
+                            </div>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-database text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">Data Solutions</div>
+                            <div class="text-secondary">
+                              Database & analytics platforms
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Column 3: Marketing & CTA -->
+                    <div class="col-md-4">
+                      <h3 class="text-c2410c">Marketing</h3>
+                      <div class="">
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-chart-line text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">Digital Marketing</div>
+                            <div class="text-secondary">
+                              SEO, SEM & social media
+                            </div>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          class="my-3 d-flex pretty-hav align-align-items-center gap-2"
+                        >
+                          <div class="bg-icon">
+                            <i
+                              class="fa-solid fa-bullhorn text-c2410c text-sm"
+                            ></i>
+                          </div>
+                          <div>
+                            <div class="">Content Strategy</div>
+                            <div class="text-secondary">
+                              Engaging content creation
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- CTA Box -->
+                      <div class="bg-icon borderd p-3 border-c2410c">
+                        <h4 class="font-bold text-gray-900 mb-2 fs-6">
+                          Need help choosing?
+                        </h4>
+                        <p class="text-secondary">
+                          Talk to our experts to find the perfect solution for
+                          your business.
+                        </p>
+                        <a href="#contact" class="text-c2410c">
+                          Contact us
+                          <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#technology" class="nav-link">Technology</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#Testimonials" class="nav-link">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a href="#FAQ" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div class="row g-2 btns">
+              <h4 class="col-md-6 btn borderd">sign in</h4>
+              <button
+                class="col-md-6 btn rounded-4 btn-c2410c text-white fw-bolder"
+              >
+                Get Start
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="hv-100 flex justify-content-center align-items-center py-5 bg-icon-opa"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="">
+              <div
+                class="d-flex align-items-center bg-icon text-secondary p-2 text-c2410c w-fit my-3"
+              >
+                <i class="fa-solid fa-rocket"></i>
+                <span>Transforming Digital Experiences</span>
+              </div>
+              <h1 class="fw-bolder">
+                <span class="gradient-text fs-1"> Digital Solutions </span>
+                <br />
+                <span class="text-c2410c">That Drive</span>
+                <br />
+                <span class="gradient-text fs-1">Growth</span>
+              </h1>
+              <p class="text-secondary text-secondary-big">
+                We craft innovative digital experiences that transform
+                businesses and accelerate growth. From cutting-edge web
+                applications to mobile solutions, we deliver technology that
+                makes a difference.
+              </p>
+            </div>
+            <div class="d-flex gap-4 colmun-small">
+              <button class="btn btn-c2410c rounded-5 p-3 text-white">
+                Start Your Project
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button class="btn borderd-secondary rounded-5 p-3">
+                <i class="fa-solid fa-play mr-2"></i>
+                Watch Demo
+              </button>
+            </div>
+            <div class="d-flex align-items-center my-5 gap-5">
+              <div class="text-center">
+                <div class="fw-bolder text-c2410c">500+</div>
+                <div class="">Projects Delivered</div>
+              </div>
+              <div class="text-center">
+                <div class="fw-bolder text-c2410c">98%</div>
+                <div class="">Client Satisfaction</div>
+              </div>
+              <div class="text-center">
+                <div class="fw-bolder text-c2410c">24/7</div>
+                <div class="">Support</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="position-absolute position-relative"></div>
+            <div
+              class="position-relative rounded-3 d-flex justify-content-center align-align-items-center"
+            >
+              <div class="position-relative w-75">
+                <div class="layer"></div>
+                <img
+                  class="w-100 border-big rounded-5"
+                  src="https://clarity-seven-drab.vercel.app/assets/hero-img-sGwnWbTh.png"
+                  alt="modern digital workspace with multiple screens showing web development, mobile apps, and analytics dashboards, professional tech environment"
+                />
+                <div
+                  class="position-absolute float-icon d-flex align-items-center justify-content-center top-0 end-0 bg-grad rounded-4 p-3"
+                >
+                  <i class="fa-solid fa-code text-white"></i>
+                </div>
+                <div
+                  class="position-absolute float-icon rounded-3 d-flex align-items-center justify-content-center shadow-lg bg-grad rounded-4 p-3 bottom-0 start-0"
+                >
+                  <i class="fa-solid fa-mobile text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Overview Section -->
+    <section id="services" class="my-3 bg-white">
+      <div class="container mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <div class="bg-icon mx-auto p-2 text-c2410c w-fit my-3">
+            <i class="fa-solid fa-cogs"></i>
+            <span>Our Services</span>
+          </div>
+          <h2 class="fw-bolder fs-1">
+            <span class="text-dark">Comprehensive</span>
+            <span class="gradient-text"> Digital Solutions</span>
+          </h2>
+          <p class="text-secondary-big w-50 mx-auto">
+            From concept to deployment, we provide end-to-end digital services
+            that transform your business and engage your customers.
+          </p>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-mobile-screen text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">Mobile Development</h3>
+              <p class="text-secondary">
+                Native and cross-platform mobile apps for iOS and Android.
+                User-friendly interfaces with seamless performance.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  iOS & Android Apps
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  React Native Development
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  App Store Optimization
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-palette text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">UI/UX Design</h3>
+              <p class="text-secondary">
+                Beautiful and intuitive designs that enhance user experience.
+                From wireframes to pixel-perfect interfaces.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  User Interface Design
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  User Experience Research
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Prototyping & Testing
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-cloud text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">Cloud Solutions</h3>
+              <p class="text-secondary">
+                Scalable cloud infrastructure and deployment solutions. Secure,
+                reliable, and cost-effective cloud services.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  AWS & Azure Services
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Cloud Migration
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Serverless Architecture
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-chart-line text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">Digital Marketing</h3>
+              <p class="text-secondary">
+                Data-driven marketing strategies to grow your business. Increase
+                visibility and drive qualified traffic.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  SEO Optimization
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Social Media Marketing
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Content Strategy
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-database text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">Data Analytics</h3>
+              <p class="text-secondary">
+                Transform raw data into actionable insights. Make informed
+                decisions with comprehensive analytics.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Business Intelligence
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Data Visualization
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Predictive Analytics
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="bg-white rounded-2 borderd-secondary p-4 pretty-hav2">
+              <div
+                class="d-flex align-items-center bg-grad w-fit p-3 rounded-3 my-3"
+              >
+                <i class="fa-solid fa-shield-halved text-white text-2xl"></i>
+              </div>
+              <h3 class="fw-bolder text-dark">Cyber Security</h3>
+              <p class="text-secondary">
+                Protect your digital assets with robust security solutions.
+                Comprehensive threat detection and prevention.
+              </p>
+              <ul class="p-0">
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Network Security
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Vulnerability Assessment
+                </li>
+                <li class="d-flex align-items-center text-secondary gap-2">
+                  <i class="fa-solid fa-check text-c2410c"></i>
+                  Security Audits
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="d-flex justify-content-center btn align-items-center text-c2410c"
+              >
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Overview Section -->
+    <section id="services" class="my-5 bg-white vw-100">
+      <div class="container mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+          <div class="bg-icon mx-auto p-2 text-c2410c w-fit my-3">
+            <i class="fa-solid fa-cogs"></i>
+            <span>Technology Stack</span>
+          </div>
+          <h2 class="fw-bolder fs-1">
+            <span class="text-dark">Cutting-Edge</span>
+            <span class="gradient-text"> Technologies</span>
+          </h2>
+          <p class="text-secondary-big w-50 mx-auto">
+            We leverage the latest technologies and frameworks to build
+            scalable, secure, and high-performance solutions.
+          </p>
+        </div>
+      </div>
+      <ul
+        class="nav nav-tabs d-flex justify-content-center align-align-items-center w-100"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item text-c2410c" role="presentation">
+          <button
+            class="nav-link text-c2410c active"
+            id="tab-one"
+            data-bs-toggle="tab"
+            data-bs-target="#content-one"
+            type="button"
+            role="tab"
+          >
+            <i class="fa-solid fa-code me-2"></i>
+            Frontend
+          </button>
+        </li>
+
+        <li class="nav-item text-c2410c" role="presentation">
+          <button
+            class="nav-link text-c2410c"
+            id="tab-two"
+            data-bs-toggle="tab"
+            data-bs-target="#content-two"
+            type="button"
+            role="tab"
+          >
+            <i class="fa-solid fa-server me-2"></i>
+            Backend
+          </button>
+        </li>
+
+        <li class="nav-item text-c2410c" role="presentation">
+          <button
+            class="nav-link text-c2410c"
+            id="tab-three"
+            data-bs-toggle="tab"
+            data-bs-target="#content-three"
+            type="button"
+            role="tab"
+          >
+            <i class="fa-solid fa-mobile-screen me-2"></i>
+            Mobile
+          </button>
+        </li>
+
+        <li class="nav-item text-c2410c" role="presentation">
+          <button
+            class="nav-link text-c2410c"
+            id="tab-four"
+            data-bs-toggle="tab"
+            data-bs-target="#content-four"
+            type="button"
+            role="tab"
+          >
+            <i class="fa-solid fa-cloud me-2"></i>
+            Cloud & DevOps
+          </button>
+        </li>
+
+        <li class="nav-item text-c2410c" role="presentation">
+          <button
+            class="nav-link text-c2410c"
+            id="tab-five"
+            data-bs-toggle="tab"
+            data-bs-target="#content-five"
+            type="button"
+            role="tab"
+          >
+            <i class="fa-solid fa-database me-2"></i>
+            Database
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content mt-4" id="myTabContent">
+        <!-- Frontend Tab -->
+        <div
+          class="tab-pane fade show active"
+          id="content-one"
+          role="tabpanel"
+        ></div>
+
+        <!-- Backend Tab -->
+        <div class="tab-pane fade" id="content-two" role="tabpanel"></div>
+
+        <!-- Mobile Tab -->
+        <div class="tab-pane fade" id="content-three" role="tabpanel"></div>
+
+        <!-- Cloud & DevOps Tab -->
+        <div class="tab-pane fade" id="content-four" role="tabpanel"></div>
+
+        <!-- Database Tab -->
+        <div class="tab-pane fade" id="content-five" role="tabpanel"></div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/bd5ba01fe8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
